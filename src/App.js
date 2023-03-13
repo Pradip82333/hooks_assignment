@@ -2,7 +2,7 @@ import "./App.css";
 import Search from "./Search";
 
 function App() {
-  return <div className="App">Jai Shree Ram
+  return <div className="App">Jai Shree 
   <Search/></div>;
 }
 
