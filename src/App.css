@@ -1,41 +1,77 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+input{
+    
+    border-radius: 5px;
+    height: 25px;
+    padding: 6px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn{
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: darkslategray;
+    color: antiquewhite;
+    padding: 6px;
+}
+.container{
+    background-color: lightgreen ;
+    width: 50%;
+    margin: auto;
+    
+}
+.bhati{
+    width: 50%;
+    margin: auto;
+    /* background-color: red; */
+}
+.list{
+    /* background-color: blue; */
+    width: 50%;
+    margin: auto;
+    height: 200px;
+    overflow-y:auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bhati-input-div{
+    display: flex;
+    justify-content: center;
+}
+.ul-li{
+    display: flex;
+    
+}
+.ul-li div{
+    width: 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ul-li div.edit-delete{
+    display: flex;
+    justify-content: end;
 }
 
-.App-link {
-  color: #61dafb;
+.btn:hover{
+    background-color: aliceblue;
+    color: blue;
+}
+.li-btn{
+    
+    border: none;
+    background-color: transparent;
+    
+}
+.li-btn:hover{
+    cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 button{
   padding: 10px 15px;
